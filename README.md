@@ -15,7 +15,7 @@ This repository contains documentation and code for lecture.
 - **Bu da neden kalın fontlu bir cümle olmasın?**
 
 
-```
+```Python 
     def forward(self, x):
         """Sequentially pass `x` trough model`s encoder, decoder and heads"""
         features = self.encoder(x) # Extract features 
