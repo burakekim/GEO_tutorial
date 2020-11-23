@@ -7,9 +7,9 @@ This repository contains documentation and code for lecture.
 
 ***
 
-Bu normal fontlu bir cümle.
-_Bu italic fontlu bir cümle._
-*Bu da italic fontlu bir cümle.*
+- Bu normal fontlu bir cümle.
+- _Bu italic fontlu bir cümle._
+- *Bu da italic fontlu bir cümle.*
 
-__Bu kalın fontlu bir cümle__
-**Bu da neden kalın fontlu bir cümle olmasın?**
+- __Bu kalın fontlu bir cümle_ _
+- **Bu da neden kalın fontlu bir cümle olmasın?**
