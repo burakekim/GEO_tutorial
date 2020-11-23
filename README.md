@@ -39,7 +39,7 @@ Dataset used in this work is from SpaceNet6 challange. See the arXiv paper here:
 - ![UHUZAM_LOGO](logo/UHUZAM_logo.png)
 
 
-
+```
               precision    recall  f1-score   support
 
     building       0.90      0.86      0.88  38508672
@@ -48,6 +48,6 @@ not_building       0.99      0.99      0.99 547096448
     accuracy                           0.98 585605120
    macro avg       0.95      0.93      0.94 585605120
 weighted avg       0.98      0.98      0.98 585605120
-
+```
 
 
