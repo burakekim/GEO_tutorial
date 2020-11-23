@@ -13,3 +13,19 @@ This repository contains documentation and code for lecture.
 
 - __Bu kalın fontlu bir cümle_ _
 - **Bu da neden kalın fontlu bir cümle olmasın?**
+
+
+```
+    def forward(self, x):
+        """Sequentially pass `x` trough model`s encoder, decoder and heads"""
+        features = self.encoder(x) # Extract features 
+
+        decoder_output = self.decoder(*features) # Decoder output for segmentation task
+        pred = self.segmentation_head(decoder_output) # Feed the decoder output to the segmentation head
+
+        reconstruct_decoder_output = self.skipless_decoder(*features) # Decoder output for reconstruction task
+        reconst_mask = self.reconstruct_segmentation_head(reconstruct_decoder_output) # Feed the decoder output to the reconstruction head
+
+        return pred,reconst_mask
+```
+
