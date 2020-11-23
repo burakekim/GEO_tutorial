@@ -9,11 +9,12 @@ import numpy as np
 #python im2npy.py --source_dir="C:\Users\PROCOMP11-PC\Desktop\PanColorGAN\PanColorGAN-master\PanColorGAN-master\dataset\PAN\tif" --save_to="C:\Users\PROCOMP11-PC\Desktop\PanColorGAN\PanColorGAN-master\PanColorGAN-master\dataset\PAN\all_pan"
 
 parse = argparse.ArgumentParser(description= 'Converts image into numpy array.')
-parse.add_argument('--source_dir', help= '[DIRECTORY]- Where is the dataset?')
 parse.add_argument('--save_to', help = '[DIRECTORY] - Where to save the numpy array?')
 parse.add_argument('--extension', help = 'Image extension', default = 'tif')
 args = parse.parse_args()
+parse.add_argument('--extension', help = 'Image extension', default = 'tif')
 
+args = pare.parse_args()
 
 def get_image_ID_generator(source_dir,extension): 
 
