@@ -35,3 +35,7 @@ Dataset used in this work is from SpaceNet6 challange. See the arXiv paper here:
 
 
 
+![ITU_LOGO](logo/ITU_logo.png)
+![UHUZAM_LOGO](logo/UHUZAM_logo.png)
+
+
