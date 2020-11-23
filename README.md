@@ -28,4 +28,10 @@ This repository contains documentation and code for lecture.
 
         return pred,reconst_mask
 ```
+## If you find our work beneficial, consider citing our paper! 
+
+Dataset used in this work is from SpaceNet6 challange. See the arXiv paper here: ["SpaceNet 6: Multi-Sensor All Weather Mapping Dataset"](https://arxiv.org/abs/2004.06500)
+
+
+
 
