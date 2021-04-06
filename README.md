@@ -11,7 +11,7 @@ This repository contains documentation and code for the GEO lecture .
 - _Bu italic fontlu bir cümle._
 - *Bu da italic fontlu bir cümle.*
 
-- __Bu kalın fontlu bir cümle_ _
+- __Bu kalın fontlu bir cümle__
 - **Bu da neden kalın fontlu bir cümle olmasın?**
 
 
