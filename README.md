@@ -1,5 +1,5 @@
 # GEO_tutorial
-This repository contains documentation and code for lecture. 
+This repository contains documentation and code for the GEO lecture . 
 
 # 1. derece başlık
 ## 2. derece başlık 
